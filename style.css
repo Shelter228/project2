@@ -62,6 +62,7 @@ img {
 .nine {
   color: #808080;
   text-decoration: line-through;
+  margin: 0 0 0 50px;
 }
 .miniprice {
   font-size: 36px;
