@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+}
+.container {
+  display: flex;
+}
+.container1 {
+  height: 404px;
+  width: 390px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 200px 0 0 325px;
+}
+img {
+  width: 170px;
+  height: 200px;
+  display: flex;
+}
+.images {
+  width: 350px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  transform: rotate(-30deg);
+}
+.lorem {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 30px;
+  gap: 14px;
+}
+.inden {
+  font-size: 14px;
+  font-weight: 400;
+  color: #808080;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 20px 30px 0 0;
+}
+.pricetwo {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 20px 30px 0 0;
+}
+.nine {
+  color: #808080;
+  text-decoration: line-through;
+}
+.miniprice {
+  font-size: 36px;
+  color: #941b0c;
+}
+.icon {
+  width: 45px;
+  height: 31px;
+}
+.container2 {
+  height: 404px;
+  width: 390px;
+  background-color: #ffd100;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin: 200px 0 0 100px;
+  position: relative;
+}
+.footo {
+  position: absolute;
+  top: -90px;
+  left: 27px;
+  transform: rotate(30deg);
+}
+.icons {
+  background-color: black;
+  width: 75px;
+  height: 70px;
+  padding: 15px;
+  margin: 30px 0 0 0 ;
+  border-radius: 9px;
+}
+.icone {
+    background-color: black;
+  width: 75px;
+  height: 70px;
+  padding: 15px;
+  border-radius: 9px;
+  margin: 30px 0 0 0 ;
+}
+
